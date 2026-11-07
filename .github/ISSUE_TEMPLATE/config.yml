@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Security problem
+    url: https://github.com/zij-watch/.github/blob/main/SECURITY.md
+    about: Report it privately by email, never in an issue.
+  - name: Anything else
+    url: https://github.com/zij-watch/.github/blob/main/SUPPORT.md
+    about: Questions that are not a bug or a feature.

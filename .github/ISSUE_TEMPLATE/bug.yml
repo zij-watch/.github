@@ -1,0 +1,47 @@
+name: Bug
+description: Something in Zij does not work as it should.
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        One bug per issue. For a security problem, do not open an issue: email info@zij.watch, as the security policy says.
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened
+      description: What you saw, with any error message copied word for word.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What you expected
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: From a fresh page load or a clean checkout. Name the place, the dates and the controls you used.
+      placeholder: |
+        1. Open …
+        2. Choose …
+        3. See …
+    validations:
+      required: true
+  - type: input
+    id: where
+    attributes:
+      label: Where
+      description: The page or file, with its URL or path.
+  - type: input
+    id: environment
+    attributes:
+      label: Browser and system
+      placeholder: Chrome 142, Windows 11, 1920×1080
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots
+      description: For anything you can see on screen. Drag images in here.

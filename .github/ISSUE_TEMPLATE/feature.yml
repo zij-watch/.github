@@ -1,0 +1,28 @@
+name: Feature
+description: Something Zij should do that it does not do now.
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: need
+    attributes:
+      label: What you want to do
+      description: The question you want answered or the task you want done, and what stops you now.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: What Zij should do
+      description: How it would work, as plainly as you can put it.
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Other ways you considered
+  - type: checkboxes
+    id: design
+    attributes:
+      label: Design
+      options:
+        - label: This changes how something looks, so it goes through docs/design first.
